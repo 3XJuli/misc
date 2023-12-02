@@ -2,7 +2,7 @@ import math
 data = []
 INPUT_PATH: str = 'input'
 n: int = 5000
-# INPUT_PATH: str = 'sample'
+# INPUT_PATH: str = 'sample1'
 # n: int = 7
 
 

@@ -4,7 +4,7 @@ from typing import Optional
 
 data = []
 INPUT_PATH: str = 'input'
-# INPUT_PATH: str = 'sample'
+# INPUT_PATH: str = 'sample1'
 minutes = 32
 
 with open(INPUT_PATH, 'r') as f:

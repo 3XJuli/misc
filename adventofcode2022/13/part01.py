@@ -5,7 +5,7 @@ data = []
 INPUT_PATH: str = 'input'
 
 
-# INPUT_PATH: str = 'sample'
+# INPUT_PATH: str = 'sample1'
 
 
 def read_data():

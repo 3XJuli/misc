@@ -8,7 +8,7 @@ from mpl_toolkits import mplot3d
 
 data = []
 INPUT_PATH: str = 'input'
-# INPUT_PATH: str = 'sample'
+# INPUT_PATH: str = 'sample1'
 
 
 sys.setrecursionlimit(10000)

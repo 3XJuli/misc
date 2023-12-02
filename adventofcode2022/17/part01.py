@@ -3,7 +3,7 @@ from pprint import pprint
 from dataclasses import dataclass, field
 data = []
 INPUT_PATH: str = 'input'
-# INPUT_PATH: str = 'sample'
+# INPUT_PATH: str = 'sample1'
 
 width: int = 7
 total_rocks: int = 2022

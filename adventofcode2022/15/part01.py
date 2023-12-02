@@ -3,7 +3,7 @@ data = []
 INPUT_PATH: str = 'input'
 y: int = 2000000
 
-# INPUT_PATH: str = 'sample'
+# INPUT_PATH: str = 'sample1'
 # y: int = 10
 
 
