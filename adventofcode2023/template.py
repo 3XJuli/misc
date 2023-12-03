@@ -1,12 +1,13 @@
 import math
+
 data = []
-INPUT_PATH: str = 'input'
-# INPUT_PATH: str = 'sample'
+INPUT_PATH: str = "input"
+# INPUT_PATH: str = 'debug_input'
 
 
-with open(INPUT_PATH, 'r') as f:
+with open(INPUT_PATH, "r") as f:
     for line in f.readlines():
-        data += [line.strip('\n')]
+        data += [line.strip("\n")]
 
 
 def solution():
@@ -19,5 +20,5 @@ def main():
     solution()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
