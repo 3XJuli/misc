@@ -13,6 +13,14 @@ func check(e error) {
 	}
 }
 
+type cord struct {
+	x, y int
+}
+
+func checkValid(checkCord cord, dims cord) bool {
+	return checkCord.x >= 0 && checkCord.x < dims.x && checkCord.y >= 0 && checkCord.y < dims.y
+}
+
 //go:embed input
 var input string
 
