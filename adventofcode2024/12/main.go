@@ -21,8 +21,6 @@ func checkValid(checkCord cord, dims cord) bool {
 	return checkCord.x >= 0 && checkCord.x < dims.x && checkCord.y >= 0 && checkCord.y < dims.y
 }
 
-// go:embed debug_input
-//
 //go:embed input
 var input string
 
