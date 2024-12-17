@@ -12,8 +12,12 @@ var directions = [4]cord{
 	{0, 1},
 }
 
-func printArray(arr [][]string) {
+func printArray(arr [][]string, instruction *cord) {
 	fmt.Println()
+
+	if instruction != nil {
+		fmt.Println("Instruction: ", *instruction)
+	}
 	fmt.Println(strings.Repeat("#", len(arr[0])+2))
 	for _, line := range arr {
 		fmt.Println("#" + strings.Join(line, "") + "#")
@@ -121,7 +125,7 @@ func part01(input string) int {
 			robotPos = newCord
 		}
 
-		printArray(arr)
+		printArray(arr, &instruction)
 	}
 
 	total := 0
